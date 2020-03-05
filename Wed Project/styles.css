@@ -1,0 +1,15 @@
+/* This is my CSS */
+.btn {
+  border-radius: 3px;
+  font-weight: 600;
+  text-align: center;
+  color: #f3f3f3;
+  cursor: grab;
+}
+.nav-btn {
+  background-color: #426FD6;
+  
+}
+.alert-btn {
+  background-color: #FF0000;
+}
