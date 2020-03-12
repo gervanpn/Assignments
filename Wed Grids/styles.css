@@ -1,0 +1,135 @@
+/* These are my CSS classes */
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+p, h4 {
+    text-align: center;
+    font-weight: normal;
+    margin: 5px;
+}
+
+h4 {
+  font-weight: bolder;
+}
+
+hr {
+  color: whitesmoke;
+  width: 40%;
+  border-style: solid none none;
+  border-width: 2px ;
+  margin: 25px auto 20px auto;
+}
+
+p {
+  font-size: 13px;
+  padding: 10px;
+  color: grey;
+}
+
+.menu {
+   display: flex;
+   justify-content:space-between;
+}
+
+.divspace {
+   padding-right:150px; /* controls space between logo and menu */
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+}
+
+.menubuttons {
+  font-weight: 600;
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.menubuttonsgrn {
+   color: limegreen;
+}
+
+.servicearea {
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: 4% 20% 4% 20% 4% 20% 4% 20% 4%;
+  grid-template-rows: 2% 96% 2%;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.backbox1 {
+  background-color: #fff;
+  color: #444;
+  border-radius: 1px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  padding: 10px;
+}
+
+.backbox2 {
+  background-color: #fff;
+  color: #444;
+  border-radius: 1px;
+  grid-column: 4/5;
+  grid-row: 2/3;
+  padding: 10px;
+}
+
+.backbox3 {
+  background-color: #fff;
+  color: #444;
+  border-radius: 1px;
+  grid-column: 6/7;
+  grid-row: 2/3;
+  padding: 10px;
+}
+
+.backbox4 {
+  background-color: #fff;
+  color: #444;
+  border-radius: 1px;
+  grid-column: 8/9;
+  grid-row: 2/3;
+  padding: 10px;
+}
+
+.bigger {
+  font-family:cursive;
+  font-size: 22px;
+}
+
+.boxedtext {
+  border-style: solid;
+  border-width:thin;
+  border-color: black;
+  margin: 15px;
+}
+
+.bottomgrid {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 2% 23% 2% 46% 2% 23% 2%;
+  grid-template-rows: 2% 96% 2%;
+  text-align: center;
+}
+
+.pic1{
+  padding: 20px 30px 20px 30px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.pic2{
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+
+.pic3{
+  grid-column: 6/7;
+  grid-row: 2/3;
+}
